@@ -31,7 +31,7 @@ function home() {
         <div className="tools">
             <h1>Tools of choice</h1>
             <div>
-                <a href="https://github.com/Vishalp001" target="_blank">
+                <a rel="noreferrer" href="https://github.com/Vishalp001" target="_blank">
                 <img  className="git" alt="logo" src={git} /></a>
                 <img style={{cursor:'pointer'}} className="react" alt="logo" src={react} />
                 <img style={{cursor:'pointer'}} className="js" alt="logo" src={js} />

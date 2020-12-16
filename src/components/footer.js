@@ -14,13 +14,13 @@ function footer() {
             </div>
 
             <div className="footerIcon">
-                <a href="https://github.com/Vishalp001" target="_blank">
+                <a rel="noreferrer" href="https://github.com/Vishalp001" target="_blank">
             <img className="git2" alt="logo" src={git} /></a>
 
-            <a href="https://twitter.com/vishalp_tech" target="_blank">
+            <a rel="noreferrer" href="https://twitter.com/vishalp_tech" target="_blank">
             <img className="twitter" alt="logo" src={twitter} /></a>
 
-            <a href="https://www.instagram.com/vishal_19_10/" target="_blank">
+            <a rel="noreferrer" href="https://www.instagram.com/vishal_19_10/" target="_blank">
             <img className="insta" alt="logo" src={insta} /></a>
             </div>
             
