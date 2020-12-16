@@ -1,5 +1,10 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color: #F6F6F6;
 }
 
 .App-logo {
@@ -36,3 +41,433 @@
     transform: rotate(360deg);
   }
 }
+/* -------------HEADER------------------- */
+header{
+  padding: 18px;
+  background-color: #ECECEF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header h1 span{
+  color: #C3B8DA;
+  background-color:#ECECEF;
+}
+header h1{
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  color: #6D5698;
+  letter-spacing: 0.25rem;
+  background-color:#ECECEF;
+}
+
+header ul{
+  list-style: none;
+  margin-right: 100px;
+  
+}
+header ul li{
+  background-color:#ECECEF;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 25px;
+  color: #4F8EAE;
+  display: inline;
+  font-size: 25px;
+}
+header ul li a{
+  background-color:#ECECEF;
+}
+header ul span{
+  background-color:#ECECEF;
+  color: #B57F59;
+}
+a:visited{ color: #4F8EAE }
+a{
+  text-decoration: none;
+}
+/* ------------------------BODY-------------------------- */
+.gif img{
+  width:80%;
+  margin-left: 100px;
+} 
+.mainSection{
+  display: flex;
+  flex-direction: row;
+}
+.main{
+  margin-left: 0px;
+  margin-top: 150px;
+}
+.main h1{
+  font-family: 'Roboto Mono', monospace;
+  color: #4F8EAE;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.main p{
+  padding: 5px 15px;
+  background-color: #29c490;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 20px;
+  line-height: 50px;
+  margin-top: 45px;
+  border-radius: 1rem;
+}
+.end{
+  display: flex;
+  justify-content: center;
+}
+/* ----------------TOOLS--------------------- */
+.tools{
+  text-align: center;
+  color: #4F8EAE;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-top: 25px;
+}
+.react , .git , .js {
+  width: 120px;
+  margin: 50px
+}
+/* -----------------ABOUT-------------------- */
+.about h2{
+  text-align: center;
+  color: #4F8EAE;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-top: 25px;
+  font-size: 40px;
+}
+.about p{
+  color: #a13f15;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 4px;
+  padding: 20px 200px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: -20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* --------------------FOOTER------------------------- */
+.footer{
+  background-color: #6D5698;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer h1{
+  padding: 25px;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 4px;
+}
+.footer-links{
+  display: flex;
+  justify-content: space-evenly; 
+  list-style: none;
+  padding: 22px;
+}
+.footer-links li a{
+  font-size: 1.5rem;
+  color: #6D5698;
+}
+.footer-links li a span{
+  color: #fff;
+}
+.footer-2{
+  background-color: #C3B8DA;
+}
+.footer .twitter{
+  color: #4F8EAE;
+  width: 50px;
+}
+.footer .git2{
+  width: 50px;
+}
+.footer .insta{
+  width: 50px;
+}
+.footerIcon {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 22px;
+}
+.footerIcon img{
+  margin: 0 20px;
+}
+.footerMain{
+   left: 0;
+   bottom: 0;
+}
+/* -------------------------------BLOG-------------------- */
+.blog h1 span{
+  color: #791e1e;
+}
+.blog .heading{
+  margin-top: 25px;
+  font-family:'Roboto Mono', monospace;
+  color: #6D5698;
+  text-align: center;
+  letter-spacing: 7px;
+  font-size: 40px;
+}
+/* --------------BLOGS SECTION------------- */
+
+.blogsDiv{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item{
+  width: 600px;
+  padding: 25px;
+}
+.item h3{
+  color: #c3c4c5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.item h1{
+  margin-top: 15px;
+  font-family:'Roboto Mono', monospace;
+  color:#4F8EAE;
+  letter-spacing:3px;
+}
+.item h2{
+  margin-left: 50px;
+  width: 400px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+  color:#083f5a;
+  letter-spacing:3px;
+}
+.blogpara{
+  margin-left: 25px;
+  border-left: 2px solid gray;
+  margin-top: 20px;
+  color: #924525;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+.blogpara p{
+  letter-spacing:2px;
+  word-spacing: 2px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+/* ----------------------------FBLOF------------------ */
+
+.fblog{
+  text-align: center; 
+}
+.fblog h3{
+  color: #c3c4c5;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+}
+.fblog h1{
+  color: #4F8EAE;
+  font-family:'Roboto Mono', monospace;
+  padding: 15px;
+  padding-top: 0;
+}
+.fblog h1 span{
+  color: #791e1e;
+}
+.fblog p{
+  padding: 30px;
+  text-align: left;
+  color: #924525;
+  font-family: sans-serif;
+  line-height: 2;
+  letter-spacing:2px;
+  word-spacing: 2px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+/* -------------------------projects---------------------- */
+.projectsHeading{
+  text-align: center;
+  color: #6D5698;
+  font-family:'Roboto Mono', monospace;
+  padding: 15px;
+}
+.projectsHeading span{
+  color: #791e1e;
+}
+
+.showCase{
+  margin-left: 50px;
+  width: 900px;
+  padding: 30px;
+}
+.showCase h2{
+  font-size: 30px;
+  color: #4F8EAE;
+  font-family: 'Montserrat', sans-serif;
+}
+.showCase p{
+  color: #791e1e;
+  font-family:'Roboto Mono', monospace;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.showCase a{
+  border: 2px solid #4F8EAE;
+  padding: 0 15px;
+  margin: 15px;
+  font-size: 25px;
+}
+/* ----------------RESPONSIVE DEVISES----------- */
+
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+      header{
+        padding: 0px;
+        background-color: #ECECEF;
+        display: flex;
+        flex-direction: column;        
+      }
+      
+      header ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-right: 0px;
+        margin-top: 25px;
+      }
+         /* -------------------------BODY------------------ */
+         .gif img{
+          width:100%;
+          margin-left:0px;
+        } 
+        .mainSection{
+          display: flex;
+          flex-direction: column;
+        }
+        .main{
+          padding: 5px;
+          margin-left: 0px;
+          margin-top: 0px;
+        }
+        
+        .end{
+          display: flex;
+          justify-content: center;
+        }
+
+        /* -----------------------ABOUT------------------ */
+        .about h2{
+          word-spacing: 2px;
+          margin-top: 25px;
+          font-size: 30px;
+        }
+        .about p{
+          color: #a13f15;
+          font-family: 'Montserrat', sans-serif;
+          word-spacing: 4px;
+          padding: 20px 5px;
+        }
+        /*----------------------------FOOTER--------------- */
+        .footer{
+          margin-top: 10px;
+        }
+        .footer h1{
+          padding: 5px;
+        }
+        .footer-links{
+          padding: 7px;
+        }
+        .footer-links li a{
+          font-size: 1.5rem;
+        }
+      
+        
+        .footerIcon {
+          display: flex;
+          justify-content: center;
+          list-style: none;
+          padding: 10px;
+        }
+        .footerIcon img{
+          margin: 0 20px;
+        }
+      /* -----------------------PROJECTS---------------------- */
+      .showCase{
+        margin: 25px 0px;
+        width: 100%;
+        padding: 5px;
+      }
+      .showCase h2{
+        font-size: 30px;
+        color: #4F8EAE;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .showCase p{
+        color: #791e1e;
+        font-family:'Roboto Mono', monospace;
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      .showCase a{
+        padding: 0px;
+        margin: 15px;
+        font-size: 25px;
+      }
+
+    /* --------------------Blogs----------- */
+    
+    .blog .heading{
+      margin-top: 15px;
+    }
+    /* --------------BLOGS SECTION------------- */
+    
+    .blogsDiv{
+      margin-top: 0px;
+    }
+    .item{
+      width: 100%;
+      padding: 10px;
+    }
+    .item h3{
+      font-size: 10px;
+    }
+    .item h1{
+      margin-top: 5px;
+      letter-spacing:2px;
+    }
+    
+    .blogpara{
+      margin-left: 10px;
+      border-left: 2px solid gray;
+      margin-top: 10px;
+    }
+    .blogpara p{
+      letter-spacing:2px;
+      word-spacing: 2px;
+      margin-left: 15px;
+      font-size: 20px;
+    }
+    
+    /* ----------------------------FBLOF------------------ */
+  
+    .fblog h1 span{
+      color: #791e1e;
+    }
+    .fblog p{
+      padding: 10px;
+      margin-left: 0px;
+      font-size: 20px;
+    }
+    }
