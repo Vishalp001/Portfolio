@@ -82,9 +82,10 @@ header ul span{
   background-color:#ECECEF;
   color: #B57F59;
 }
-a:visited{ color: #4F8EAE }
+a:visited{ color: #4F8EAE; }
 a{
   text-decoration: none;
+  color: #4F8EAE;
 }
 /* ------------------------BODY-------------------------- */
 .gif img{
