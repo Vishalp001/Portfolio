@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function footer() {
     return (
         <div  className="footerMain">
-            <div className="footer">
+            <div className="footer" >
 
             <div>
             <h1> <span>&#60;</span>vishal.dev <span>/&#62;</span></h1>
