@@ -32,6 +32,13 @@ function projects() {
                 <a rel="noreferrer" target="_blank" href="https://quotes-vp.netlify.app/" >Live Project</a>
                 <a rel="noreferrer" target="_blank" href="https://github.com/Vishalp001/Quote">Source Code</a>
             </div>
+        
+            <div className="showCase">
+                <h2>ToDoList</h2>
+                <p>A To Do List App for daily use</p>
+                <a rel="noreferrer" target="_blank" href="https://todolistapp-vp.netlify.app/" >Live Project</a>
+                <a rel="noreferrer" target="_blank" href="https://github.com/Vishalp001/to-do-app">Source Code</a>
+            </div>
 
            
         </div>
