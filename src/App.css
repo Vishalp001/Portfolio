@@ -4,113 +4,84 @@
   box-sizing: border-box;
 }
 body{
-   background-color: #F6F6F6;
+   background-color: #1a1a1d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /* -------------HEADER------------------- */
+
 header{
   padding: 18px;
-  background-color: #ECECEF;
+  background-color: #950741;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 header h1 span{
   color: #C3B8DA;
-  background-color:#ECECEF;
 }
 header h1{
   cursor: pointer;
   font-family: 'Roboto Mono', monospace;
-  color: #6D5698;
+  color: #ffffff; 
   letter-spacing: 0.25rem;
-  background-color:#ECECEF;
 }
 
 header ul{
   list-style: none;
-  margin-right: 100px;
-  
+  margin-right: 25px;
 }
+
 header ul li{
-  background-color:#ECECEF;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-family: 'Montserrat', sans-serif;
   padding: 12px 25px;
-  color: #4F8EAE;
+  color: #ffffff;
   display: inline;
   font-size: 25px;
 }
-header ul li a{
-  background-color:#ECECEF;
-}
+
+
+
 header ul span{
-  background-color:#ECECEF;
-  color: #B57F59;
+  color: #ffffffb0;
+  padding-right: 1px;
 }
-a:visited{ color: #4F8EAE; }
+
+
+a, a:hover, a:focus, a:active {
+text-decoration: none;
+color: inherit;
+}
 a{
   text-decoration: none;
-  color: #4F8EAE;
 }
 /* ------------------------BODY-------------------------- */
-.gif img{
-  width:80%;
-  margin-left: 100px;
-} 
 .mainSection{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.gif img{
+  margin-top:120px;
+  margin-left: 50px;
+  width: 70%;
 }
 .main{
-  margin-left: 0px;
   margin-top: 150px;
+  margin-left: 150px;
 }
 .main h1{
   font-family: 'Roboto Mono', monospace;
-  color: #4F8EAE;
-  letter-spacing: 2px;
+  color: #C3083F;
   font-weight: bold;
   font-size: 35px;
 }
 .main p{
   padding: 5px 15px;
-  background-color: #29c490;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -119,27 +90,44 @@ a{
   margin-top: 45px;
   border-radius: 1rem;
 }
-.end{
-  display: flex;
-  justify-content: center;
-}
+
 /* ----------------TOOLS--------------------- */
-.tools{
+.tools h1{
   text-align: center;
-  color: #4F8EAE;
+  color: #C3083F;
   font-family: 'Roboto Mono', monospace;
   letter-spacing: 2px;
   word-spacing: 2px;
   margin-top: 25px;
 }
-.react , .git , .js {
-  width: 120px;
-  margin: 50px
+.tools{
+  margin-top: 100px;
+  text-align: center;
+}
+.icons{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ .icons > *{
+  color: #fff;
+  font-size: 70px;
+  margin: 15px;
+  animation: -webkit-;
+}
+.icons >*:hover{
+  cursor: pointer;
+  font-size: 80px;
+  transition: 0.4s ease-in;
 }
 /* -----------------ABOUT-------------------- */
+.about{
+  margin-top: 100px;
+}
 .about h2{
+  
   text-align: center;
-  color: #4F8EAE;
+  color: #c3073f;
   font-family: 'Roboto Mono', monospace;
   letter-spacing: 2px;
   word-spacing: 2px;
@@ -147,7 +135,7 @@ a{
   font-size: 40px;
 }
 .about p{
-  color: #a13f15;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   word-spacing: 4px;
   padding: 20px 200px;
@@ -159,8 +147,8 @@ a{
 }
 /* --------------------FOOTER------------------------- */
 .footer{
-  background-color: #6D5698;
-  color: #fff;
+  background-color: #6e6e6e;
+  color: #ffffff;
   text-align: center;
   margin-top: 100px;
 }
@@ -177,32 +165,25 @@ a{
 }
 .footer-links li a{
   font-size: 1.5rem;
-  color: #6D5698;
+  color: #7e7e7e;
 }
 .footer-links li a span{
-  color: #fff;
+  color: rgba(255, 255, 255, 0.349);
 }
 .footer-2{
-  background-color: #C3B8DA;
+  background-color: #080707;
 }
-.footer .twitter{
-  color: #4F8EAE;
-  width: 50px;
-}
-.footer .git2{
-  width: 50px;
-}
-.footer .insta{
-  width: 50px;
-}
+
 .footerIcon {
   display: flex;
   justify-content: center;
   list-style: none;
   padding: 22px;
-}
-.footerIcon img{
+} 
+.footerIcon a{
+  font-size: 50px;
   margin: 0 20px;
+  color: #fff;
 }
 .footerMain{
    left: 0;
@@ -210,12 +191,12 @@ a{
 }
 /* -------------------------------BLOG-------------------- */
 .blog h1 span{
-  color: #791e1e;
+  color: #ffffff;
 }
 .blog .heading{
   margin-top: 25px;
-  font-family:'Roboto Mono', monospace;
-  color: #6D5698;
+  font-family: 'Montserrat', sans-serif;
+  color: #b8b3b4;
   text-align: center;
   letter-spacing: 7px;
   font-size: 40px;
@@ -240,7 +221,7 @@ a{
 .item h1{
   margin-top: 15px;
   font-family:'Roboto Mono', monospace;
-  color:#4F8EAE;
+  color:#82c24d;
   letter-spacing:3px;
 }
 .item h2{
@@ -251,11 +232,12 @@ a{
   color:#083f5a;
   letter-spacing:3px;
 }
+
 .blogpara{
   margin-left: 25px;
   border-left: 2px solid gray;
   margin-top: 20px;
-  color: #924525;
+  color: #a8a8a8;
   font-family: 'Montserrat', sans-serif;
   line-height: 2;
 }
@@ -264,6 +246,9 @@ a{
   word-spacing: 2px;
   margin-left: 15px;
   font-size: 20px;
+}
+.blogpara span{
+  color: rgb(76, 221, 125);
 }
 
 /* ----------------------------FBLOF------------------ */
@@ -277,7 +262,7 @@ a{
   padding: 15px;
 }
 .fblog h1{
-  color: #4F8EAE;
+  color: #82c24d;
   font-family:'Roboto Mono', monospace;
   padding: 15px;
   padding-top: 0;
@@ -288,23 +273,23 @@ a{
 .fblog p{
   padding: 30px;
   text-align: left;
-  color: #924525;
-  font-family: sans-serif;
-  line-height: 2;
-  letter-spacing:2px;
-  word-spacing: 2px;
+  color: #b8b8b8;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.5;
   margin-left: 15px;
   font-size: 20px;
 }
 /* -------------------------projects---------------------- */
 .projectsHeading{
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: #b8b3b4;
   text-align: center;
-  color: #6D5698;
-  font-family:'Roboto Mono', monospace;
-  padding: 15px;
+  letter-spacing: 7px;
+  font-size: 40px;
 }
 .projectsHeading span{
-  color: #791e1e;
+  color: #fff;
 }
 
 .showCase{
@@ -312,163 +297,160 @@ a{
   width: 900px;
   padding: 30px;
 }
+
 .showCase h2{
   font-size: 30px;
-  color: #4F8EAE;
+  color: #81e232;
   font-family: 'Montserrat', sans-serif;
 }
 .showCase p{
-  color: #791e1e;
+  color: #dad0d0;
   font-family:'Roboto Mono', monospace;
   font-size: 25px;
   margin-bottom: 15px;
 }
 .showCase a{
-  border: 2px solid #4F8EAE;
+  color: #fff;
+  border: 2px solid #82c24d;
   padding: 0 15px;
   margin: 15px;
   font-size: 25px;
 }
 /* ----------------RESPONSIVE DEVISES----------- */
 
-@media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px) {
+@media only screen and (max-width: 600px){
       header{
-        padding: 0px;
-        background-color: #ECECEF;
-        display: flex;
-        flex-direction: column;        
-      }
-      
-      header ul{
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        margin-right: 0px;
-        margin-top: 25px;
-      }
-         /* -------------------------BODY------------------ */
-         .gif img{
-          width:100%;
-          margin-left:0px;
-        } 
-        .mainSection{
-          display: flex;
-          flex-direction: column;
-        }
-        .main{
-          padding: 5px;
-          margin-left: 0px;
-          margin-top: 0px;
-        }
-        
-        .end{
-          display: flex;
-          justify-content: center;
-        }
+  padding: 0px;
+  flex-direction: column;
+}
+header ul{
+  margin-right: 0px;
+}
 
-        /* -----------------------ABOUT------------------ */
-        .about h2{
-          word-spacing: 2px;
-          margin-top: 25px;
-          font-size: 30px;
-        }
-        .about p{
-          color: #a13f15;
-          font-family: 'Montserrat', sans-serif;
-          word-spacing: 4px;
-          padding: 20px 5px;
-        }
-        /*----------------------------FOOTER--------------- */
-        .footer{
-          margin-top: 10px;
-        }
-        .footer h1{
-          padding: 5px;
-        }
-        .footer-links{
-          padding: 7px;
-        }
-        .footer-links li a{
-          font-size: 1.5rem;
-        }
-      
-        
-        .footerIcon {
-          display: flex;
-          justify-content: center;
-          list-style: none;
-          padding: 10px;
-        }
-        .footerIcon img{
-          margin: 0 20px;
-        }
-      /* -----------------------PROJECTS---------------------- */
-      .showCase{
-        margin: 25px 0px;
-        width: 100%;
-        padding: 5px;
-      }
-      .showCase h2{
-        font-size: 30px;
-        color: #4F8EAE;
-        font-family: 'Montserrat', sans-serif;
-      }
-      .showCase p{
-        color: #791e1e;
-        font-family:'Roboto Mono', monospace;
-        font-size: 25px;
-        margin-bottom: 15px;
-      }
-      .showCase a{
-        padding: 0px;
-        margin: 15px;
-        font-size: 25px;
-      }
+header ul li{
+  padding: 10px 25px;
+  display: block;
+}
+/* ------------------------BODY-------------------------- */
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-    /* --------------------Blogs----------- */
-    
-    .blog .heading{
-      margin-top: 15px;
-    }
-    /* --------------BLOGS SECTION------------- */
-    
-    .blogsDiv{
-      margin-top: 0px;
-    }
-    .item{
-      width: 100%;
-      padding: 10px;
-    }
-    .item h3{
-      font-size: 10px;
-    }
-    .item h1{
-      margin-top: 5px;
-      letter-spacing:2px;
-    }
-    
-    .blogpara{
-      margin-left: 10px;
-      border-left: 2px solid gray;
-      margin-top: 10px;
-    }
-    .blogpara p{
-      letter-spacing:2px;
-      word-spacing: 2px;
-      margin-left: 15px;
-      font-size: 20px;
-    }
-    
-    /* ----------------------------FBLOF------------------ */
-  
-    .fblog h1 span{
-      color: #791e1e;
-    }
-    .fblog p{
-      padding: 10px;
-      margin-left: 0px;
-      font-size: 20px;
-    }
+.gif img{
+  margin-top:50px;
+  width: 80%;
+}
+.main{
+  padding: 1px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.main p{
+  padding: 5px 5px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  line-height: 40px;
+  margin-top: 45px;
+}
+
+/* ----------------TOOLS--------------------- */
+.tools h1{
+  text-align: center;
+  color: #C3083F;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-top: 25px;
+}
+.tools{
+  margin-top: 100px;
+  text-align: center;
+}
+.icons{
+  margin-top: 15px;
+  display: block;
+  padding: 15px;
+}
+ .icons > *{
+  color: #fff;
+  font-size: 50px;
+}
+.icons >*:hover{
+  cursor: pointer;
+  font-size: 50px;
+  transition: 0.4s ease-in;
+}
+/* -----------------ABOUT-------------------- */
+.about{
+  margin-top: 10px;
+  width: 100%;
+}
+.about h2{
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-top: 25px;
+  font-size: 40px;
+}
+.about p{
+  word-spacing: 1px;
+  padding: 0px;
+  margin: 2px;
+  letter-spacing: 1px;
+}
+/* --------------------FOOTER------------------------- */
+.footer{
+  margin-top: 50px;
+}
+.footer h1{
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.footerIcon {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 22px;
+} 
+.footerIcon a{
+  font-size: 50px;
+  margin: 0 20px;
+  color: #fff;
+}
+.footerMain{
+   left: 0;
+   bottom: 0;
+}
+
+/* +++PROJECTS */
+
+.projectsHeading{
+  margin-top: 20px;
+  letter-spacing: 5px;
+}
+
+.showCase{
+  margin: 50px 0;
+
+  width: 100%;
+  padding: 0px;
+}
+
+.showCase h2{
+  font-size: 30px;
+  margin: 5px;
+}
+.showCase p{
+  font-size: 23px;
+}
+.showCase a{
+  color: #fff;
+  border: 2px solid #82c24d;
+  margin: 1px;
+  font-size: 25px;
+}
     }

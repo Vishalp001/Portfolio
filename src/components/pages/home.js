@@ -1,59 +1,67 @@
 import React from 'react'
-import end from "../images/end.png"
 import undraw from "../images/undrawsvg.svg"
-import git from "../images/git.png"
-import react from "../images/react.png"
-import js from "../images/js.png"
+import { BsFillBootstrapFill } from 'react-icons/bs';
+import { AiFillGithub } from 'react-icons/ai';
+import { SiGitlab } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { SiMaterialUi } from 'react-icons/si';
+import { SiMongodb } from 'react-icons/si';
+import { GrNode } from 'react-icons/gr';
+import { FaReact } from 'react-icons/fa';
+import { SiRedux } from 'react-icons/si';
+import { DiSass } from 'react-icons/di';
+
 
 
 
 function home() {
     return (
         <div>
-             
+
             {/* ---------------MAIN--------------- */}
             <div className="mainSection">
-            <div className="gif">
-                <img src={undraw} alt="logo" />
+
+                <div className="main">
+                    <h1>Howdy, comps! (Namaste.) </h1>
+                    <p>I am Vishal Pohekar, a Full-Stack JavaScript Developer. I like to make digital experiences easier and simpler for people.</p>
+                </div>
+
+                <div className="gif">
+                    <img src={undraw} alt="logo" />
+                </div>
             </div>
-            <div className="main">
-                <h1>Howdy, comps!</h1>
-                <p>I'm Vishal Pohekar, a web <br/> developer && hiker</p>
+
+            {/* ------------END---------- */}
+
+
+            {/* ----------TOOLS------------ */}
+            <div className="tools">
+                <h1>Tools of choice</h1>
+
+                <div className="icons">
+                    <BsFillBootstrapFill />
+                    <AiFillGithub />
+                    <SiGitlab />
+                    <SiJavascript />
+                    <SiMaterialUi />
+                    <SiMongodb />
+                    <GrNode />
+                    <FaReact />
+                    <SiRedux />
+                    <DiSass />
+                </div>
             </div>
-        </div>
 
-        {/* ------------END---------- */}
-        <div className="end">
-            <img src={end} alt="logo" />
-        </div>
+            {/* ---------------END-------------------- */}
 
-        {/* ----------TOOLS------------ */}
-        <div className="tools">
-            <h1>Tools of choice</h1>
-            <div>
-                <a rel="noreferrer" href="https://github.com/Vishalp001" target="_blank">
-                <img  className="git" alt="logo" src={git} /></a>
-                <img style={{cursor:'pointer'}} className="react" alt="logo" src={react} />
-                <img style={{cursor:'pointer'}} className="js" alt="logo" src={js} />
+
+            {/* -------------ABOUT----------- */}
+            <div className="about">
+                <h2>A bit about me</h2>
+
+                <p>Hey there! Let me introduce myself again, my name is Vishal Pohekar, and I am a Full-Stack JavaScript developer. I have over 2.7 years of experience developing websites and web applications. I enjoy working on both Front-end and Back-end, but I work mostly on MERN apps. You can see my work of Front-end in React, and NodeJS in Back-end in my Projects.
+                If you are looking to hire someone with my skills then you can drop me a mail at vishalpohekar1@gmail.com</p>
             </div>
-        </div>
-
-        {/* ---------------END-------------------- */}
-        <div className="end">
-            <img src={end} alt="logo" />
-        </div>
-
-        {/* -------------ABOUT----------- */}
-        <div className="about">
-            <h2>A bit about me</h2>
-
-            <p>As an aspiring web Developer, I'm learning full stack web developer and server based applications. I take part in creating websites from frontend and backend. 
-                <br/> <br/>
-             As a Web developers I also analyze user needs to ensure the proper content, graphics and underlying structure are used to meet both the goals of the user and the website’s owner
-            <br/> <br/>
-            In my free time, I enjoy working on a couple of personal projects and writing about stuff I learn.</p>
-        </div>
-
         </div>
     )
 }
