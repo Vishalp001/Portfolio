@@ -4,7 +4,7 @@ import Home from "../src/components/pages/home"
 import Blogs from "../src/components/pages/blog"
 import About from "../src/components/pages/about"
 import Header from "../src/components/pages/header"
-import {BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Blog1 from "../src/components/pages/blog1"
 import Blog2 from "../src/components/pages/blog2"
 import Blog3 from "../src/components/pages/blog3"
@@ -16,23 +16,23 @@ import Project from "../src/components/pages/projects"
 function App() {
   return (
     <BrowserRouter>
-     <div className="App">
-       <Header />
-       <Switch>
-         <Route exact path="/" component={Home} />
-         <Route exact path="/blogs" component={Blogs} />
-         <Route exact path="/about" component={About} />
-         <Route exact path="/blog1" component={Blog1} />
-         <Route exact path="/blog2" component={Blog2} />
-         <Route exact path="/blog3" component={Blog3} />
-         <Route exact path="/blog4" component={Blog4} />
-         <Route exact path="/blog5" component={Blog5} />
-         <Route exact path="/blog6" component={Blog6} />
-         <Route exact path="/projects" component={Project} />
-        
-       </Switch>
-       <Footer />
-     </div>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/blogs" component={Blogs} />
+          <Route path="/about" component={About} />
+          <Route path="/blog1" component={Blog1} />
+          <Route path="/blog2" component={Blog2} />
+          <Route path="/blog3" component={Blog3} />
+          <Route path="/blog4" component={Blog4} />
+          <Route path="/blog5" component={Blog5} />
+          <Route path="/blog6" component={Blog6} />
+          <Route path="/projects" component={Project} />
+
+        </Switch>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
