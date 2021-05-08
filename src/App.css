@@ -110,15 +110,14 @@ a{
   justify-content: space-evenly;
 }
  .icons > *{
-  color: #fff;
+  cursor: pointer;
+   color: #fff;
   font-size: 70px;
   margin: 15px;
-  animation: -webkit-;
+  transition: 0.4s ease-in-out;
 }
 .icons >*:hover{
-  cursor: pointer;
   font-size: 80px;
-  transition: 0.4s ease-in;
 }
 /* -----------------ABOUT-------------------- */
 .about{
