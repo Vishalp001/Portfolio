@@ -2,8 +2,8 @@ const data = [
   {
     name: 'React-Timeline',
     desc: 'A MERN based Application. This is a timeline application in which you can track your daily productive activities.',
-    liveProject: 'https://reacttimelinefrontline.herokuapp.com/',
-    sourceCode: 'https://github.com/Vishalp001/React-Timeline',
+    liveProject: 'https://reacttimeline55.herokuapp.com/',
+    sourceCode: 'https://github.com/Vishalp001/react-timeline',
   },
   {
     name: 'Emoji-Interpretation',
