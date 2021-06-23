@@ -9,11 +9,7 @@ const data = [
     name: 'React-Timeline',
     desc: 'A MERN based Application. This is a timeline application in which you can track your daily productive activities.',
     liveProject: 'https://reacttimeline55.herokuapp.com/',
-<<<<<<< HEAD
-    sourceCode: 'https://github.com/Vishalp001/React-Timeline',
-=======
     sourceCode: 'https://github.com/Vishalp001/react-timeline',
->>>>>>> 0e005926f7714702302e43035d12924133d49388
   },
   {
     name: 'Grocery Bud',
