@@ -8,7 +8,7 @@ function header() {
         <h1>
           <Link to='/'>
             <span>&#60;</span>vishal.dev <span>/&#62;</span>
-          </Link>{' '}
+          </Link>
         </h1>
         <ul>
           <li>

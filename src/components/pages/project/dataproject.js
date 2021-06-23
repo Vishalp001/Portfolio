@@ -1,9 +1,21 @@
 const data = [
   {
+    name: 'Xplore EV',
+    desc: 'An internship project website updated with the lastest, trending news and information on Electric Vehicles.',
+    liveProject: 'https://xplorev.com/',
+    sourceCode: 'https://github.com/Vishalp001/exploreelectric-vehicle',
+  },
+  {
     name: 'React-Timeline',
     desc: 'A MERN based Application. This is a timeline application in which you can track your daily productive activities.',
-    liveProject: 'https://reacttimelinefrontline.herokuapp.com/',
+    liveProject: 'https://reacttimeline55.herokuapp.com/',
     sourceCode: 'https://github.com/Vishalp001/React-Timeline',
+  },
+  {
+    name: 'Grocery Bud',
+    desc: 'A To Do List App for daily use',
+    liveProject: 'https://grocery-bud1.netlify.app/',
+    sourceCode: 'https://github.com/Vishalp001/grocery-bud',
   },
   {
     name: 'Emoji-Interpretation',
@@ -16,18 +28,6 @@ const data = [
     desc: 'App that fetches a random code from api',
     liveProject: 'https://quotes-vp.netlify.app/',
     sourceCode: 'https://github.com/Vishalp001/Quote',
-  },
-  {
-    name: 'ToDoList',
-    desc: 'A To Do List App for daily use',
-    liveProject: 'https://todolistapp-vp.netlify.app/',
-    sourceCode: 'https://github.com/Vishalp001/to-do-app',
-  },
-  {
-    name: 'A RealEstate Site',
-    desc: 'RealEstate Freelance Project',
-    liveProject: 'https://manerealestate.netlify.app/',
-    sourceCode: 'https://github.com/Vishalp001/Mane-Real-Estate',
   },
 ]
 

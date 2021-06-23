@@ -22,7 +22,9 @@ function blog() {
                 <p>
                   {`${item.text.substring(0, 200)}...`}
                   <span>
-                    <Link to={item.link}>Read More</Link>
+                    <a href={item.link} target='_blank'>
+                      Read More
+                    </a>
                   </span>
                 </p>
               </div>
