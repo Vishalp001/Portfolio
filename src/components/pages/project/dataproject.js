@@ -2,7 +2,7 @@ const data = [
   {
     name: 'Xplore EV',
     desc: 'An internship project website updated with the lastest, trending news and information on Electric Vehicles.',
-    liveProject: 'https://xplorev.com/',
+    liveProject: 'https://www.xplorev.com/',
     sourceCode: 'https://github.com/Vishalp001/exploreelectric-vehicle',
   },
   {
