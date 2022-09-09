@@ -1,8 +1,20 @@
 const data = [
   {
+    name: 'Dance Registration App',
+    desc: "Freelancing Project. Student registration application for students and teacher to track dance academy admissions.",
+    liveProject: 'https://garbha-group.web.app/',
+    sourceCode: '',
+  },
+  {
+    name: 'Xplore EV New',
+    desc: "A recent Freelancing project On Evs. It is a Full Stack project based on MERN technology.",
+    liveProject: 'https://xplore-new.web.app/',
+    sourceCode: 'https://github.com/Vishalp001/Xplore-Ev',
+  },
+  {
     name: 'Xplore EV',
-    desc: 'An internship project website updated with the lastest, trending news and information on Electric Vehicles.',
-    liveProject: 'https://www.xplorev.com/',
+    desc: 'An internship project website whicg gives updates on the lastest news, trending news and information on Electric Vehicles.',
+    liveProject: 'https://xploreev.netlify.app/',
     sourceCode: 'https://github.com/Vishalp001/exploreelectric-vehicle',
   },
   {
