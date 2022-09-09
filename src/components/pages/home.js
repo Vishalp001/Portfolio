@@ -59,7 +59,7 @@ function home() {
             <div className="about">
                 <h2>A bit about me</h2>
 
-                <p>Hey there! Let me introduce myself again, my name is Vishal Pohekar, and I am a Full-Stack JavaScript developer. I have over 2.7 years of experience developing websites and web applications. I enjoy working on both Front-end and Back-end, but I work mostly on MERN apps. You can see my work of Front-end in React, and NodeJS in Back-end in my Projects.
+                <p>Hey there! Let me introduce myself again, my name is Vishal Pohekar, and I am a Full-Stack JavaScript developer. I have over 1.7 years of experience developing websites and web applications. I enjoy working on both Front-end and Back-end, but I work mostly on MERN apps. You can see my work of Front-end in React, and NodeJS in Back-end in my Projects.
                 If you are looking to hire someone with my skills then you can drop me a mail at vishalpohekar1@gmail.com</p>
             </div>
         </div>
